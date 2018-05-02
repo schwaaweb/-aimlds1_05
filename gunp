@@ -1,22 +1,12 @@
 #!/usr/bin/env bash
-echo ''
-date && 
-echo ''
-echo '     Git Update and Push'
-echo ''
-git status &&
-echo ''
-git add . &&
-echo ''
-git commit -am $1 &&
-echo ''
-git status &&
-echo ''
+
+date 
+git status
+git add .
+git commit -am $1 && 
+git status 
 git push &&
-echo ''
-git status &&
-echo ''
-echo '     Git Update and Push'
-echo ''
-date &&
-echo ''
+git status
+date 
+
+#date && git status && git add . && git commit -am "" && git status && git push && git status && date && date
